@@ -1,0 +1,31 @@
+<div>
+    <div class="button">
+        <button>OPEN</button>
+        <button>View Only</button>
+    </div>
+    <table border="1" cellSpacing="0">
+        <tr>
+            <th>Input</th>
+            <th>Created_Time</th>
+            <th>Priority</th>
+            <th>Source_bu</th>
+            <th>Reference</th>
+            <th>Dc_Reference</th>
+            <th>Account_Name</th>
+            <th>Tran_CCY</th>
+            <th>Tra_Amt</th>
+        </tr>
+        <tr *ngFor="let item of dataRecord">
+            <td> <input class="form-check-input" (click)="getForm(item.id)" type="radio" name="flexRadioDefault"
+                    id="flexRadioDefault1"></td>
+            <td>{{item.created_on}}</td>
+            <td>{{item.priority}}</td>
+            <td>{{item.source_bu}}</td>
+            <td>{{item.updated_by}}</td>
+            <td>{{item.document_capture_reference}}</td>
+            <td>{{item.account_short_name}}</td>
+            <td>{{item.transaction_currency}}</td>
+            <td>{{item.transaction_amount}}</td>
+        </tr>
+    </table>
+</div>

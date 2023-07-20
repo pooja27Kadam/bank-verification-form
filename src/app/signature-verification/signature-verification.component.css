@@ -1,0 +1,16 @@
+.parent-container {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  margin: 20px;
+}
+.router-page {
+  flex: 1;
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}

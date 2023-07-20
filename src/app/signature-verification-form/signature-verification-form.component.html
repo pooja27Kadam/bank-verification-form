@@ -1,0 +1,80 @@
+<div class="main-container">
+
+    <div class="form">
+        <div class="buttons">
+            <button>Proceed</button>
+            <button>Reject</button>
+        </div>
+        <div class="form-detail">
+            <form [formGroup]="formGroupData">
+
+                <h4>Signature Verification</h4>
+
+                <div class="comment-history">
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Comment History</label>
+                        <input type="text" class="form-control" id="comment" formControlName="comments">
+                    </div>
+                </div>
+                <div class="document">
+                    <h5>Document</h5>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Reference</label>
+                        <input type="text" class="form-control" id="Reference"
+                            formControlName="document_capture_reference">
+                    </div>
+                </div>
+                <div class="transfer-detail">
+                    <h5>Transfer Detail</h5>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Currency</label>
+                        <input type="text" class="form-control" id="Currency" formControlName="transaction_currency">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Amount</label>
+                        <input type="text" class="form-control" id="amount" formControlName="transaction_amount">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">MUR equivalent</label>
+                        <input type="text" class="form-control" id="mur-equivalent" formControlName="amount_in_mur">
+                    </div>
+                </div>
+                <div class="debit-account-detail">
+                    <h5>Debit Account Details</h5>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Account No</label>
+                        <input type="text" class="form-control" id="accountno" formControlName="debit_account_number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="mur-equivalent"
+                            formControlName="account_short_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label">Currency</label>
+                        <input type="text" class="form-control" id="Currency1" formControlName="transaction_currency">
+                    </div>
+                </div>
+
+                <div class="payment-detail">
+                    <h5>Payment Details</h5>
+                    <input type="text" class="form-control" id="payment1" formControlName="payment_detail_1">
+                    <input type="text" class="form-control" id="payment2" formControlName="payment_detail_2">
+                    <input type="text" class="form-control" id="payment3" formControlName="payment_detail_3">
+                </div>
+                <div class="verification-signature">
+                    <h5>Verify Signature</h5>
+                    <label for="comment" class="form-label">Signature Ok : </label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                        id="flexRadioDefault1"><button>Yes</button>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                        id="flexRadioDefault1"><button>No</button><br>
+
+                    <label for="comment" class="form-label">Discrepancy Reason</label>
+                    <input type="text" class="form-control" id="Reason" formControlName="discrepancy_reason">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="form-image"> PDF</div>
+</div>

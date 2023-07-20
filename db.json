@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "fname": "admin",
+      "password": "admin@123"
+    },
+    {
+      "fname": "admin1",
+      "password": "admin1@124"
+    }
+  ],
+  "data": [
+    {
+      "id": "1",
+      "business_key": "finance",
+      "application": "bank",
+      "comments": "nocomment",
+      "transaction_currency": "doller",
+      "transaction_amount": "23456789",
+      "amount_in_mur": "45678",
+      "debit_account_number": "onetwo",
+      "account_short_name": "abc",
+      "debit_account_ccv": "erty",
+      "payment_detail_1": "cgh",
+      "payment_detail_2": "dsa",
+      "payment_detail_3": "ewq",
+      "payment_detail_4": "vcx",
+      "verify": "rtyzx",
+      "discrepancy_reason": "xcvgb",
+      "created_by": "fghj",
+      "created_on": "vbn",
+      "updated_by": "dfghj",
+      "updated_on": "vbn",
+      "priority": "vbn",
+      "source_bu": "fghj",
+      "document_capture_reference": "sdfg",
+      "status": "cvbn"
+    },
+    {
+      "id": "2",
+      "business_key": "test",
+      "application": "bank",
+      "comments": "nocomment",
+      "transaction_currency": "doller",
+      "transaction_amount": "23456789",
+      "amount_in_mur": "45678",
+      "debit_account_number": "onetwo",
+      "account_short_name": "abc",
+      "debit_account_ccv": "erty",
+      "payment_detail_1": "cgh",
+      "payment_detail_2": "dsa",
+      "payment_detail_3": "ewq",
+      "payment_detail_4": "vcx",
+      "verify": "rtyzx",
+      "discrepancy_reason": "xcvgb",
+      "created_by": "fghj",
+      "created_on": "vbn",
+      "updated_by": "dfghj",
+      "updated_on": "vbn",
+      "priority": "vbn",
+      "source_bu": "fghj",
+      "document_capture_reference": "sdfg",
+      "status": "cvbn"
+    }
+  ]
+}
